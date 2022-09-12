@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    
+    margin: 80px;
+    padding: 0;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+#game{
+    display: flex;
+    background-color: rgb(32, 32, 32);
+}
+
+.card{
+    width: 180px;
+    height: 120px;
+    background-color: rgb(26, 26, 255);
+    border-top: 10px solid rgb(1, 61, 200);
+    border-right: 10px solid rgb(11, 11, 91);
+    border-bottom: 10px solid rgb(20, 20, 89);
+    border-left: 10px solid rgb(19, 19, 160);
+    text-align: center;
+    font-size: 100px;
+    margin: 5px;
+    padding: 10px;
+    line-height: 120px;
+    cursor: grab; 
+}
+
+.firstButton{
+    background-color: rgb(24, 171, 24);
+}
+
+.secondButton{
+    background-color: rgb(24, 171, 24);
+}
+
+.thirdButton{
+    background-color: rgb(24, 171, 24)
+}
+
+.genreTitle{
+    background-color: rgb(26, 26, 255);
+    text-align: center;
+    font-size: 28px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.correctAnswer{
+    background-color: rgb(186, 186, 24);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 8px;
+}
+
+.wrongAnswer{
+    background-color: rgb(220, 60, 91);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
